@@ -432,7 +432,7 @@ function analyze_game(bad_setup::Bool, bad_move::Bool)
         end
     end
 
-    println("# Valid states: ", length(valid_states))
+    println(" => Valid states: ", length(valid_states))
 
     t = eye(GAME_STATES+1)
     for i=1:20
@@ -445,7 +445,7 @@ function analyze_game(bad_setup::Bool, bad_move::Bool)
             end
         end
         if can_be_finished
-            println("MAX_FINISH_DEPTH: ", i)
+            println(" => MAX_FINISH_DEPTH: ", i)
             break
         end
     end
