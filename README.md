@@ -12,10 +12,10 @@ I've ported it to Python instead of Julia. However, it is also faster,
 and lighter in memory.
 
 Changes:
-   * [MarkovTextAdventure.py] now runs on Python (2 and 3)
+   * [MarkovTextAdventure.py](MarkovTextAdventure.py) now runs on Python (2 and 3)
    * Uses Arnoldi Iteration and sparse arrays to increase speed, reduce memory.
-   * Now works on CPUs from the 1990's which lack SSE2 (woohoo!).
-   * Also created [mta.jl] which works in Julia 0.3.2.
+   * Now works on CPUs from the 1990's which lack SSE2 (*woohoo!*).
+   * Also created [mta.jl](mta.jl) which works in Julia 0.3.2.
 
 Yet to do:
    * Calculate % of button-mashers affected.
