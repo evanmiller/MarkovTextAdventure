@@ -2,7 +2,7 @@ Markov Text Adventure Analysis
 --
 
 This is a Markov analysis of the [The Teeny Tiny Mansion](http://svn.clifford.at/handicraft/2017/tttm/README).
-Please see [Evan Miller's blog](http://evanmiller.org/adventure-game)
+Please see [Evan Miller's blog](http://www.evanmiller.org/adventure-games-and-eigenvalues.html)
 for the basic information on what this is supposed to do.
 
 Usage:
