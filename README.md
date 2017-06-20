@@ -48,7 +48,7 @@ Scenario 4: No bugs (hopefully)
 
 ### Python differences
 
-The Python port (contributed by hackerb9(https://github.com/hackerb9)
+The Python port (contributed by [hackerb9](https://github.com/hackerb9)
 has some differences from the Julia version.
 
 Changes:
